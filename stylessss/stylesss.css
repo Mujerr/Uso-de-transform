@@ -1,0 +1,25 @@
+
+div{
+border-style: solid;
+border-color: black;
+position: absolute;
+width: 200px;
+height: 200px;
+border-width: 2.5px;
+}
+.div1{
+    text-align: right;
+    left: 60px;
+    transform:rotateX(1300deg);
+}
+.div2{
+    text-align: right;
+    left: 400px;
+    transform:skewX(45deg);
+}
+.div3{
+    text-align: right;
+    left: 720px;
+    transform:matrix(0.586,0.8,-0.8,0.686,40,50);
+
+}
